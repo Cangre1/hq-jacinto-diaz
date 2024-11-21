@@ -17,14 +17,11 @@ const Footer = () => {
           <div className="space-y-4">
             <h3 className="text-md xl:text-xl font-light">Contactános</h3>
             <ul className="flex flex-col gap-y-3 text-xs xl:text-base">
-              <a
-                href="https://www.google.com/maps/place/Avenida+del+Libertador+%26+J.+F.+Kennedy,+B1644+Victoria,+Provincia+de+Buenos+Aires/@-34.4517232,-58.5362417,15z/data=!4m6!3m5!1s0x95bcafdcfc7f9347:0x46f05e9e5a11c66f!8m2!3d-34.4519338!4d-58.528361!16s%2Fg%2F11h9t8n_hl?entry=ttu&g_ep=EgoyMDI0MTAxNS4wIKXMDSoASAFQAw%3D%3D"
-                target=""
-              >
+              <a href="https://maps.app.goo.gl/R5Fpv9ffm9RKKv5N7" target="">
                 <li className="flex items-start hover:text-[#bdbf0b] font-light transition-all ease-in-out duration-300">
                   <MapPin className="mr-2 h-5 w-5" />
-                  Avenida del Libertador & J. F. Kennedy,
-                  <br /> Buenos Aires, Argentina
+                  Jacinto Díaz 323, San Isidro,
+                  <br /> Provincia de Buenos Aires
                 </li>
               </a>
               <a href="#" target="_blank">
@@ -45,7 +42,7 @@ const Footer = () => {
             <h3 className="text-md xl:text-xl font-light"></h3>
             <ul className="space-y-2 text-xs xl:text-base">
               <li className="hover:text-[#bdbf0b] font-light transition-all ease-in-out duration-300">
-                <Link href="#metricas">El Vivero</Link>
+                <Link href="#metricas">Jacinto Díaz</Link>
               </li>
               <li className="hover:text-[#bdbf0b] font-light transition-all ease-in-out duration-300">
                 <Link href="#ubicacion">Ubicación</Link>

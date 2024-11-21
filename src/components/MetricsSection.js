@@ -6,17 +6,18 @@ const MetricsSection = () => {
     {
       icon: Home,
       title: "Unidades",
-      value: "32",
+      value:
+        "6 (Poseen 2 ambientes: 3 al frente y las demás, flexibles al contrafrente. Cuenta con 9 cocheras.)",
     },
     {
       icon: PercentSquare,
       title: "Avance del proyecto",
-      value: "80%",
+      value: "20%",
     },
     {
       icon: Calendar,
       title: "Fecha de finalización",
-      value: "23/06/2025",
+      value: "15/12/2025",
     },
     {
       icon: Ruler,
@@ -26,17 +27,27 @@ const MetricsSection = () => {
   ];
 
   return (
-    <section className="py-12 xl:py-24 bg-white border-t border-[#bdbf0b] border-t-[25px]" id="metricas">
+    <section
+      className="py-12 xl:py-24 bg-white  border-[#bdbf0b] border-t-[25px]"
+      id="metricas"
+    >
       <div className="container mx-auto px-4">
         <div className="flex flex-col lg:flex-row">
           <div className="lg:w-1/4 mb-8 lg:mb-0">
-            <h2 className="text-2xl xl:text-4xl font-light mb-4 ">El Vivero: un proyecto único</h2>
-            <p className="text-sm xl:text-lg text-gray-600">Algunos datos para conocer mejor el desarrollo.</p>
+            <h2 className="text-2xl xl:text-4xl font-light mb-4 ">
+              Jacinto Díaz: un proyecto único
+            </h2>
+            <p className="text-sm xl:text-lg text-gray-600">
+              Algunos datos para conocer mejor el desarrollo.
+            </p>
           </div>
           <div className="lg:w-3/4 lg:pl-8">
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
               {metrics.map((metric, index) => (
-                <Card key={index} className="bg-gray-100 hover:-translate-y-1 transform transition-all ease-in-out duration-300 shadow-lg hover:shadow-2xl cursor-pointer ">
+                <Card
+                  key={index}
+                  className="bg-gray-100 hover:-translate-y-1 transform transition-all ease-in-out duration-300 shadow-lg hover:shadow-2xl cursor-pointer "
+                >
                   <CardHeader className="flex flex-row items-center justify-between space-y-0 pb-2">
                     <CardTitle className="text-xl font-light">
                       {metric.title}
@@ -65,7 +76,9 @@ const MetricsSection = () => {
                         ))}
                       </div>
                     ) : (
-                      <div className="text-lg font-bold text-[#bdbf0b]">{metric.value}</div>
+                      <div className="text-lg font-bold text-[#bdbf0b]">
+                        {metric.value}
+                      </div>
                     )}
                   </CardContent>
                 </Card>
