@@ -66,13 +66,13 @@ const FinishesSection = () => {
       Icon: CookingPot,
       title: "Muebles de cocina",
       description:
-        "Mueble de baño con mesadas de mármol o cuarzo y pileta blanca. Artefactos sanita-rios blancos línea Mónaco de Roca o similar. Grifería de diseño mono comando FV.",
+        "Muebles de cocina fabricados a medida en melamina blanca con cantos de ABS y apertura con uñero invisible. Mesadas de cocina de Quarzo con pileta de acero inoxidable Luxor. Grifería de diseño mono comando Ramón Soler o similar. Anafe a Gas con hornallas en fundición Orbis o Similar y horno eléctrico de 8 funciones Orbis o similar.",
     },
     {
       Icon: Bath,
       title: "Muebles de baño",
       description:
-        "Muebles de cocina fabricados a medida en melamina blanca con cantos de ABS y apertura con uñero invisible. Mesadas de cocina de Quarzo con pileta de acero inoxidable Luxor. Grifería de diseño mono comando Ramón Soler o similar. Anafe a Gas con hornallas en fundición Orbis o Similar y horno eléctrico de 8 funciones Orbis o similar.",
+        "Mueble de baño con mesadas de mármol o cuarzo y pileta blanca. Artefactos sanitarios blancos línea Mónaco de Roca o similar. Grifería de diseño mono comando FV.",
     },
     {
       Icon: ThermometerSun,
