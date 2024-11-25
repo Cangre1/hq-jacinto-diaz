@@ -24,7 +24,7 @@ const LocationSection = () => {
               comercios y entreteniemiento.
             </p>
 
-            <div className="flex justify-start gap-4 pt-6">
+            <div className="flex flex-col lg:flex-row justify-start gap-4 pt-6">
               <Button
                 size="lg"
                 variant="secondary"

@@ -59,7 +59,7 @@ const Footer = () => {
             </ul>
           </div>
           <div>
-            <h3 className="text-md xl:text-xl font-light mb-4">Contactanos</h3>
+            <h3 className="text-md xl:text-xl font-light mb-4">Redes</h3>
             <div className="flex space-x-4">
               <a
                 href="https://www.facebook.com/estudioquirogahq"
@@ -101,7 +101,7 @@ const Footer = () => {
           </div>
         </div>
         <div className="mt-8 pt-8 border-t border-gray-700 text-center">
-          <p className="text-xs xl:text-base text-left xl:text-center">
+          <p className="text-xs xl:text-base text-center">
             &copy; 2024 HQ Estudio Quiroga by Fellow. Todos los derechos
             reservados.
           </p>
