@@ -56,29 +56,12 @@ const HeroSection = () => {
         <Image className="w-12" src={Whatsapp} />
       </a>
       <div className="absolute inset-0 z-0">
-        {videos.map((src, index) => (
-          <video
-            key={src}
-            ref={videoRefs[index]}
-            className={`w-full h-full object-cover ${
-              index === currentVideo ? "block" : "hidden"
-            }`}
-            autoPlay
-            muted
-            playsInline
-            src={src}
-            onEnded={handleVideoEnd}
-          />
-        ))}
-
-        {/* Video comentado
-        
         <img
-          src="/assets/hero.webp"
+          src="/assets/bg-hero.png"
           alt="Hero Image"
           className="w-full h-full object-cover"
         />
-        */}
+
         {/* Overlay oscuro */}
         <div className="absolute inset-0 bg-black opacity-60 z-10" />
       </div>
@@ -88,7 +71,7 @@ const HeroSection = () => {
             Viví <br /> HQ+ Jacinto Díaz
           </h1>
           <p className="text-xl xl:text-3xl mb-8 font-light">
-            Conocé un barrio de casas y edificios bajos, rodeado de verde.
+            Vení a conocer los 6 departamentos ubicados en San Isidro.
             <br />
           </p>
 

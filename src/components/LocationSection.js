@@ -9,15 +9,19 @@ const LocationSection = () => {
         <div className="flex flex-col md:flex-row md:items-stretch">
           <div className="md:w-1/2 mb-8 md:mb-0 md:pr-8">
             <h2 className="text-2xl xl:text-4xl font-light mb-8">
-              Jacinto Díaz
-              <br /> Un complejo rodeado de verde
+              HQ+ Jacinto Díaz
+              <br /> Ubicación Estratégica:
+              <br /> Un desarrollo en el corazón de
+              <br /> San Isidro
             </h2>
             <p className="text-sm xl:text-lg mb-4 xl:w-3/4">
-              En un barrio de casas y edificios bajos, rodeado de verde, el
-              proyecto está a media cuadra de la plaza Castiglia y a sólo 3
-              cuadras de Avenida Centenario, por la que pasan varias líneas de
-              colectivos. El centro de san Isidro también cerca, a tan sólo 10
-              minutos de caminata.
+              Su ubicación combina la serenidad de los espacios verdes con la
+              comodidad de estar cerca de todo. A solo media cuadra de la Plaza
+              Castiglia y a tres cuadras de la Avenida Centenario, donde
+              circulan diversas líneas de colectivos y cerca de la estación del
+              tren. Además, el centro de San Isidro se encuentra a solo 10
+              minutos caminando, con acceso a colegios, centros médicos,
+              comercios y entreteniemiento.
             </p>
 
             <div className="flex justify-start gap-4 pt-6">

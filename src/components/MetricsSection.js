@@ -7,7 +7,7 @@ const MetricsSection = () => {
       icon: Home,
       title: "Unidades",
       value:
-        "6 (Poseen 2 ambientes: 3 al frente y las demás, flexibles al contrafrente. Cuenta con 9 cocheras.)",
+        "6 Departamentos: 2 ambientes (3 al frente y 3 al contrafrente) Hay unidades flexibles con posibilidad de agregar un ambiente más. Tiene 9 cocheras a disposición.",
     },
     {
       icon: PercentSquare,
@@ -17,7 +17,7 @@ const MetricsSection = () => {
     {
       icon: Calendar,
       title: "Fecha de finalización",
-      value: "15/12/2025",
+      value: "Fines del 2025",
     },
     {
       icon: Ruler,
@@ -35,7 +35,7 @@ const MetricsSection = () => {
         <div className="flex flex-col lg:flex-row">
           <div className="lg:w-1/4 mb-8 lg:mb-0">
             <h2 className="text-2xl xl:text-4xl font-light mb-4 ">
-              Jacinto Díaz: un proyecto único
+              Jacinto Díaz: un proyecto inmobiliario rodeado de verde.
             </h2>
             <p className="text-sm xl:text-lg text-gray-600">
               Algunos datos para conocer mejor el desarrollo.
