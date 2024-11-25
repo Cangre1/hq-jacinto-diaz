@@ -17,19 +17,6 @@ const HeroSection = () => {
     message: "",
   });
 
-  const [currentVideo, setCurrentVideo] = useState(0);
-  const videoRefs = [useRef(null), useRef(null)];
-
-  const videos = ["/assets/video-test.mp4", "/assets/video-test2.mp4"];
-
-  useEffect(() => {
-    videoRefs[currentVideo].current.play();
-  }, [currentVideo]);
-
-  const handleVideoEnd = () => {
-    setCurrentVideo((prev) => (prev === 0 ? 1 : 0));
-  };
-
   const handleChange = (e) => {
     const { name, value } = e.target;
     setFormData((prevState) => ({
