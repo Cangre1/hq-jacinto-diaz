@@ -86,7 +86,7 @@ const Footer = () => {
                 </Button>
               </a>
               <a
-                href="https://www.facebook.com/estudioquirogahq"
+                href="https://www.linkedin.com/company/hqarquitectos"
                 target="_blank"
               >
                 <Button

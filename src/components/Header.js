@@ -139,7 +139,7 @@ const Header = () => {
                 </Button>
               </a>
               <a
-                href="https://www.facebook.com/estudioquirogahq"
+                href="https://www.linkedin.com/company/hqarquitectos"
                 target="_blank"
               >
                 <Button variant="ghost" size="icon">
@@ -167,7 +167,10 @@ const Header = () => {
                 <Instagram className="w-5" />
               </Button>
             </a>
-            <a href="https://www.instagram.com/hqarquitectos/" target="_blank">
+            <a
+              href="https://www.linkedin.com/company/hqarquitectos"
+              target="_blank"
+            >
               <Button
                 variant="ghost"
                 size="icon"
