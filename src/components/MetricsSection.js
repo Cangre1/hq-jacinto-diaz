@@ -49,10 +49,10 @@ const MetricsSection = () => {
                   className="bg-gray-100 hover:-translate-y-1 transform transition-all ease-in-out duration-300 shadow-lg hover:shadow-2xl cursor-pointer "
                 >
                   <CardHeader className="flex flex-row items-center justify-between space-y-0 pb-2">
-                    <CardTitle className="text-xl font-light">
+                    <CardTitle className="text-xl xl:text-2xl font-light">
                       {metric.title}
                     </CardTitle>
-                    <metric.icon className="h-6 w-6 text-muted-foreground" />
+                    <metric.icon className="h-6 w-6 xl:h-8 xl:w-8 text-muted-foreground" />
                   </CardHeader>
                   <CardContent>
                     {Array.isArray(metric.value) ? (
@@ -76,7 +76,7 @@ const MetricsSection = () => {
                         ))}
                       </div>
                     ) : (
-                      <div className="text-lg font-bold text-[#bdbf0b]">
+                      <div className="text-lg xl:text-xl font-bold text-[#bdbf0b]">
                         {metric.value}
                       </div>
                     )}
