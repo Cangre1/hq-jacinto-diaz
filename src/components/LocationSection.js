@@ -25,14 +25,16 @@ const LocationSection = () => {
             </p>
 
             <div className="flex flex-col lg:flex-row justify-start gap-4 pt-6">
-              <Button
-                size="lg"
-                variant="secondary"
-                className="text-sm xl:text-lg items-center bg-[#2f2e2e] text-[#bdbf0b] border border-black hover:bg-transparent hover:text-black transition-all ease-in-out duration-300 py-6"
-              >
-                Coordiná una visita
-                <MessageCircle className="ml-2 h-5 w-5" />
-              </Button>
+              <a href="https://api.whatsapp.com/send?phone=541124685346">
+                <Button
+                  size="lg"
+                  variant="secondary"
+                  className="text-sm xl:text-lg items-center bg-[#2f2e2e] text-[#bdbf0b] border border-black hover:bg-transparent hover:text-black transition-all ease-in-out duration-300 py-6"
+                >
+                  Coordiná una visita
+                  <MessageCircle className="ml-2 h-5 w-5" />
+                </Button>
+              </a>
               <a
                 href="https://maps.app.goo.gl/R5Fpv9ffm9RKKv5N7"
                 target="_blank"

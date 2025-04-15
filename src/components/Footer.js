@@ -24,16 +24,16 @@ const Footer = () => {
                   <br /> Provincia de Buenos Aires
                 </li>
               </a>
-              <a href="#" target="_blank">
+              <a href="https://api.whatsapp.com/send?phone=541124685346">
                 <li className="flex items-center hover:text-[#bdbf0b] font-light transition-all ease-in-out duration-300">
                   <Phone className="mr-2 h-5 w-5" />
-                  +1 (123) 456-7890
+                  +54 9 11 2468-5346
                 </li>
               </a>
-              <a href="mailto: info@nombredelproyecto.com" target="_blank">
+              <a href="mailto:carlosf@estudioquiroga.com.ar" target="_blank">
                 <li className="flex items-center hover:text-[#bdbf0b] font-light transition-all ease-in-out duration-300">
                   <Mail className="mr-2 h-5 w-5" />
-                  info@nombredelproyecto.com
+                  carlosf@estudioquiroga.com.ar
                 </li>
               </a>
             </ul>

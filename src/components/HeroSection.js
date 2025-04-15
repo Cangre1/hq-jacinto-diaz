@@ -36,8 +36,7 @@ const HeroSection = () => {
       className="relative min-h-screen flex items-center justify-center pt-24 xl:pt-16"
     >
       <a
-        href="#"
-        target=""
+        href="https://api.whatsapp.com/send?phone=541124685346"
         className="fixed bottom-5 xl:bottom-10 right-5 xl:right-10 z-50 hover:scale-110 transition-all ease-in-out duration-300"
       >
         <Image className="w-12" src={Whatsapp} />

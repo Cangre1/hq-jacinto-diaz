@@ -12,14 +12,16 @@ const BannerCTA = () => {
           Contáctanos ahora para saber más sobre esta excepcional oportunidad de
           vida.
         </p>
-        <Button
-          size="lg"
-          variant="secondary"
-          className="text-sm xl:text-lg items-center bg-[#2f2e2e] text-[#bdbf0b] border border-black hover:bg-transparent hover:text-black transition-all ease-in-out duration-300"
-        >
-          Contáctanos por WhatsApp
-          <MessageCircle className="ml-2 h-5 w-5" />
-        </Button>
+        <a href="https://api.whatsapp.com/send?phone=541124685346">
+          <Button
+            size="lg"
+            variant="secondary"
+            className="text-sm xl:text-lg items-center bg-[#2f2e2e] text-[#bdbf0b] border border-black hover:bg-transparent hover:text-black transition-all ease-in-out duration-300"
+          >
+            Contáctanos por WhatsApp
+            <MessageCircle className="ml-2 h-5 w-5" />
+          </Button>
+        </a>
       </div>
     </section>
   );

@@ -7,22 +7,23 @@ const MetricsSection = () => {
       icon: Home,
       title: "Unidades",
       value:
-        "6 Departamentos: 2 ambientes (3 al frente y 3 al contrafrente) Hay unidades flexibles con posibilidad de agregar un ambiente más. Tiene 9 cocheras a disposición.",
+        "<span class='font-bold'>6 Departamentos:</span> 2 ambientes (3 al frente y 3 al contrafrente) Hay unidades flexibles con posibilidad de agregar un ambiente más. Tiene 9 cocheras a disposición.",
     },
     {
       icon: PercentSquare,
       title: "Avance del proyecto",
-      value: "20%",
+      value:
+        "<span class='font-bold'>En proceso</span> - seguí los avances en nuestras redes sociales",
     },
     {
       icon: Calendar,
       title: "Fecha de finalización",
-      value: "Fines del 2025",
+      value: "<span class='font-bold'>Principios de 2026</span>",
     },
     {
       icon: Ruler,
       title: "Metros cuadrados",
-      value: "2200",
+      value: "<span class='font-bold'>2200</span>",
     },
   ];
 
@@ -76,9 +77,10 @@ const MetricsSection = () => {
                         ))}
                       </div>
                     ) : (
-                      <div className="text-lg xl:text-xl font-bold text-[#bdbf0b]">
-                        {metric.value}
-                      </div>
+                      <div
+                        className="text-lg xl:text-xl text-[#bdbf0b]"
+                        dangerouslySetInnerHTML={{ __html: metric.value }}
+                      />
                     )}
                   </CardContent>
                 </Card>
